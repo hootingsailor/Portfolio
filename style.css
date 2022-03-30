@@ -3,7 +3,57 @@
     padding: 0;
 }
 
-.main{
-    background-color: aqua;
+img{
+    width: 100%;
 }
 
+.main{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.skill h4{
+    display: inline-block;
+    border-style: solid;
+    padding: 5px;
+    border-color: rgb(0, 68, 255);
+    margin: 2px;
+}
+
+.skill{
+    background-color: rgb(1, 169, 211);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 30%;
+    padding: 10px;
+}
+
+.skill:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.project{
+    background-color: rgb(1, 169, 211);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.project:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.education{
+    background-color: rgb(1, 169, 211);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.education:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.footer{
+    background-color: rgb(66, 66, 255);
+    padding: 10px;
+    text-align: center;
+}
