@@ -95,12 +95,20 @@ a{
 
 @media only screen and (max-width: 720px) {
     .skill{
-        width: 100%;
         display: block;
+        width: 90%;
     }
-
+    .skill img{
+        width: 75%;
+    }
     .group{
         display: block;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    .skill img{
         width: 100%;
     }
   }
