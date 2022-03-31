@@ -7,13 +7,18 @@ img{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .main{
     background-color: aqua;
     padding: 10px;
     word-wrap: break-word;
 }
 
-.skill h4{
+.box{
     display: inline-block;
     border-style: solid;
     padding: 5px;
@@ -21,18 +26,18 @@ img{
     margin: 2px;
 }
 
-.skill a{
-    text-decoration: none;
-    color: black;
-}
-
 .skill{
     background-color: rgb(1, 169, 211);
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
     width: 30%;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     display: inline-block;
+}
+
+.skill:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 
 .group{
@@ -44,22 +49,37 @@ img{
 .objective{
     background-color: rgb(1, 169, 211);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.2s;
     padding: 10px;
     margin: 20px;
+}
+
+.objective:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 
 .project{
     background-color: rgb(1, 169, 211);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.2s;
     padding: 10px;
     margin: 20px;
+}
+
+.project:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 
 .education{
     background-color: rgb(1, 169, 211);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.2s;
     padding: 10px;
     margin: 20px;
+}
+
+.education:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 
 .footer{
@@ -72,3 +92,15 @@ img{
     width: 30px;
     margin: 10px;
 }
+
+@media only screen and (max-width: 720px) {
+    .skill{
+        width: 100%;
+        display: block;
+    }
+
+    .group{
+        display: block;
+        width: 100%;
+    }
+  }
