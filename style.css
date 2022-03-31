@@ -40,6 +40,13 @@ img{
     vertical-align: top;
 }
 
+.objective{
+    background-color: rgb(1, 169, 211);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
 .project{
     background-color: rgb(1, 169, 211);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
