@@ -10,6 +10,7 @@ img{
 .main{
     background-color: aqua;
     padding: 10px;
+    word-wrap: break-word;
 }
 
 .skill h4{
@@ -44,25 +45,30 @@ img{
     background-color: rgb(1, 169, 211);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .project{
     background-color: rgb(1, 169, 211);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .education{
     background-color: rgb(1, 169, 211);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .footer{
     background-color: rgb(66, 66, 255);
     padding: 10px;
     text-align: center;
+}
+
+.social img{
+    width: 30px;
+    margin: 10px;
 }
