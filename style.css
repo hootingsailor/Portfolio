@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: aqua;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.box{
+    display: inline-block;
+    border-style: solid;
+    padding: 5px;
+    border-color: rgb(0, 68, 255);
+    margin: 2px;
+}
+
+.skill{
+    background-color: rgb(1, 169, 211);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.skill:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.group{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+.objective{
+    background-color: rgb(1, 169, 211);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.2s;
+    padding: 10px;
+    margin: 20px;
+}
+
+.objective:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.project{
+    background-color: rgb(1, 169, 211);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.2s;
+    padding: 10px;
+    margin: 20px;
+}
+
+.project:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.education{
+    background-color: rgb(1, 169, 211);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.2s;
+    padding: 10px;
+    margin: 20px;
+}
+
+.education:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.footer{
+    background-color: rgb(66, 66, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.social img{
+    width: 30px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 720px) {
+    .skill{
+        display: block;
+        width: 90%;
+    }
+    .skill img{
+        width: 75%;
+    }
+    .group{
+        display: block;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    .skill img{
+        width: 100%;
+    }
+  }
