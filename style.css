@@ -1,34 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-header{
-    background-color: #EAF6F6;
-}
-
-header img{
-    width: 15vw;
-}
-
-header h1{
-    font-family: 'Nerko One', cursive;
-    font-size:5vw;
-    color: #66BFBF;
-    margin: auto;
-    width: 50%;
-}
-
-header h2{
-    font-family: 'Syne Mono', monospace;
-    font-size:2vw;
-    color: #66BFBF;
-    margin: auto;
-    width: 50%;
-    
-}
-
-img{
-    width: 10vw;
-    border-radius: 100%;
+    /* font-family: 'Syne Mono', monospace; */
+    /* font-family: 'Nerko One', cursive; */
 }
