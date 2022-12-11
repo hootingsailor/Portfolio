@@ -36,10 +36,6 @@
     width: 25%;
 }
 
-.w-50{
-    width: 50%;
-}
-
 /* font family */
 
 .ff-monospace{
@@ -48,16 +44,21 @@
 
 .ff-cursive{
     font-family: 'Nerko One', cursive;
+    font-weight: 100;
 }
 
 /* font size */
+
+.fs-2{
+    font-size: 2.5vw;
+}
 
 .fs-5{
     font-size: 5vw;
 }
 
-.fs-7{
-    font-size: 7.5vw;
+.fs-10{
+    font-size: 10vw;
 }
 
 /* text align  */
@@ -76,4 +77,10 @@
 .flex-left{
     display: flex;
     flex-direction: row;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

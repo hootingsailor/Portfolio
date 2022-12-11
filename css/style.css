@@ -2,3 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
+.round{
+    padding: 2%;
+    border-radius: 50%;
+}
+
+header{
+    padding-bottom: 5%;
+}
+
+main{
+    padding: 5% 0;
+}
+
+footer{
+    padding: 5% 0;
+}
