@@ -8,6 +8,20 @@
     background-color: #66BFBF;
 }
 
+/* text color */
+
+.tc-light{
+    color: #66BFBF;
+}
+
+.tc-dark{
+    color: #40514E;
+}
+
+.tc-med{
+    color: #11999E;
+}
+
 /* width */
 
 .w-5{
@@ -28,13 +42,38 @@
 
 /* font family */
 
-.fy-monospace{
+.ff-monospace{
     font-family: 'Syne Mono', monospace;
 }
 
-.fy-cursive{
+.ff-cursive{
     font-family: 'Nerko One', cursive;
 }
 
 /* font size */
 
+.fs-5{
+    font-size: 5vw;
+}
+
+.fs-7{
+    font-size: 7.5vw;
+}
+
+/* text align  */
+
+.text-center{
+    text-align: center;
+}
+
+/* flex  */
+
+.flex-right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-left{
+    display: flex;
+    flex-direction: row;
+}
