@@ -8,6 +8,14 @@
     border-radius: 50%;
 }
 
+hr{
+    background-color: #EAF6F6;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1vh dotted rgb(0, 128, 255);
+}
+
 header{
     padding-bottom: 5%;
 }
