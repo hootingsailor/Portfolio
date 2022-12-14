@@ -36,6 +36,14 @@
     width: 25%;
 }
 
+.w-50{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
 /* font family */
 
 .ff-monospace{
@@ -55,6 +63,10 @@
 
 .fs-5{
     font-size: 5vw;
+}
+
+.fs-7{
+    font-size: 7vw;
 }
 
 .fs-10{
@@ -93,4 +105,18 @@
 
 .p-2{
     padding: 2% 0;
+}
+
+.px-2{
+    padding: 0 2%;
+}
+
+.px-15{
+    padding: 0 15%;
+}
+
+/* margin */
+
+.m-5{
+    margin: 5% 0;
 }
